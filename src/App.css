@@ -1,0 +1,115 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.header-top{
+  background-color: #1a56b6;
+    height: 9vh;
+}
+
+.main-title{
+  font-size: 180%;
+}
+
+.title{
+  margin-top: 2vh;
+  margin-left: 1vw;
+  font-size: 2.5vh;
+}
+
+.top-div{
+margin-top: 6.5vh;
+margin-left: 5.5vw;
+}
+
+.main-card{
+  width: 87vw;
+  margin-left: 5vw;
+  margin-top: 13vh;
+  border-radius: 1vw;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+.desc{
+    margin-left: 1.2vw;
+    color: grey;
+}
+
+.shift-icon{
+  margin-left: -1.7vw;
+  /* margin-top: -1vh; */
+  width: 2vw;
+  font-size: 4vh;
+}
+
+.icon-span{
+margin-top: 6.2vh;
+}
+
+.form-control-b{
+  border-radius: 50px;
+  margin-top: 6vh;
+  height: 4.9vh;
+  width: 30vw;
+  box-shadow: 0 4px 4px 0 rgb(0 0 0 / 22%), 0 4px 4px 0 rgb(0 0 0 / 1%);
+  border-width: thin;
+}
+
+.page{
+  background-color: #f2f3fa;
+}
+
+.list{
+  list-style-type: none;
+}
+
+.btn1{
+  margin-left: 70vw;
+  background-color: #1a56b6;
+  margin-left: 71vw;
+}
+
+.divider{
+  width: 82vw;
+}
+
+.main-divide{
+    width: 88vw;
+    margin-left: 4.5vw;
+    margin-top: 4vh;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
